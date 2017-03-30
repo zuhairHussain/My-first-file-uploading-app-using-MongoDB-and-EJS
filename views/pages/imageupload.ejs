@@ -1,0 +1,23 @@
+<% include ../partials/header %>
+<body class="container">
+
+    <header>
+       
+    </header>
+
+    <main>
+        <div class="jumbotron">
+            <h1>photo</h1>
+            <p>Welcome to templating using EJS</p>
+        </div>
+        <form id="uploadForm" enctype="multipart/form-data" action="/ad-post" method="post">
+            <input type="file" name="userPhoto2" />
+            <input type="submit" value="Upload Image" name="submit">
+        </form>
+    </main>
+
+    <footer>
+        <% include ../partials/footer %>
+    </footer>
+    
+</body>

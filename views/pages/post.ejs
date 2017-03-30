@@ -1,0 +1,41 @@
+<% include ../partials/header %>
+<body class="container">
+
+    <header>
+       
+    </header>
+
+    <main>
+        <div class="jumbotron">
+            <h1>ABOUT</h1>
+            <p>Welcome to templating using EJS</p>
+        </div>
+        <form id="uploadForm" enctype="multipart/form-data" method="post" action="ad-post">
+
+           <div class="form-group">
+                <label>Name:</label>
+                 <input type="text" name="name">
+            </div>
+            <div class="form-group">
+                <label>Price:</label>
+                <input type="number" name="price">
+            </div>
+            <div class="form-group">
+                <label>Upload Image:</label>
+                <input type="file" name="userPhoto2" />
+            </div>
+            <div class="form-group">
+                <label>Add Description:</label>
+                <textarea name="desc"></textarea>
+            </div>
+            
+            <button type="submit" class="btn btn-default">Submit</button>
+
+        </form>
+    </main>
+
+    <footer>
+        <% include ../partials/footer %>
+    </footer>
+    
+</body>

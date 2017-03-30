@@ -1,0 +1,21 @@
+<% include ../partials/header %>
+<body class="container">
+
+    <header>
+       
+    </header>
+
+    <main>
+        <div class="jumbotron">
+            <h1 id="name" class="pull-left"><%= item.name %></h1>
+            <span class="pull-right"><%= item.price %></span>
+            <img id="img" src="../uploads/<%= item.imgUrl %>">
+            <p>Description : <%= item.desc %></p>
+        </div>
+    </main>
+
+    <footer>
+        <% include ../partials/footer %>
+    </footer>
+
+</body>
