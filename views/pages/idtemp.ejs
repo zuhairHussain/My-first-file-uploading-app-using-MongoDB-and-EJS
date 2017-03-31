@@ -7,10 +7,10 @@
 
     <main>
         <div class="jumbotron">
-            <h1 id="name" class="pull-left"><%= item.name %></h1>
-            <span class="pull-right"><%= item.price %></span>
-            <img id="img" src="../uploads/<%= item.imgUrl %>">
-            <p>Description : <%= item.desc %></p>
+            <div class="cntnt"><h1 id="name" class="pull-left"><%= item.name %></h1>
+            <span class="pull-right"><b>Price : <%= item.price %></span></b></div>
+            <div class="pimg"><img id="img" src="../uploads/<%= item.imgUrl %>"></div>
+            <p><b>Description</b> : <%= item.desc %></p>
         </div>
     </main>
 

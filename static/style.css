@@ -14,3 +14,55 @@ ul{padding: 0;}
     height: 33px;
     margin-right: 19px;
 }
+.cntnt{
+    float: left;
+    width: 100%;
+}
+.pimg {
+    text-align: center;
+    margin-bottom: 50px;
+    margin-top: 37px;
+    display: block;
+    float: right;
+}
+.pimg img{    max-width: 244px;
+    float: right;}
+.jumbotron{float: left;width:100%;}
+.jumbotron p {
+    margin-bottom: 15px;
+    font-size: 21px;
+    font-weight: 200;
+    margin: 20px 0;
+    width: 49%;
+    float: left;
+    background-color: white;
+    padding: 20px;
+    border-radius: 7px;
+}
+form#uploadForm {
+    float: left;
+    padding: 20px;
+    background-color: white;
+    border-radius: 8px;
+    width: 50%;
+    margin: auto;
+    float: none;
+    margin-top: 50px;
+}
+input {
+    width: 100%;
+    padding: 7px 5px;
+    border-radius: 3px;
+    border: 1px solid #cacaca;
+}
+textarea {
+    width: 100%;
+    padding: 7px 5px;
+    border-radius: 3px;
+    border: 1px solid #cacaca;
+    max-width: 100%;
+    height: 200px;
+}
+label {
+    float: left;
+}
