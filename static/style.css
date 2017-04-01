@@ -49,7 +49,7 @@ form#uploadForm {
     float: none;
     margin-top: 50px;
 }
-input {
+input,select {
     width: 100%;
     padding: 7px 5px;
     border-radius: 3px;
@@ -65,4 +65,23 @@ textarea {
 }
 label {
     float: left;
+}
+.home li{
+    width: 50%;
+    float: left;
+    list-style: none;
+    text-align: center;
+    padding: 40px 0;
+    font-size: 40px;
+}
+.home i{
+        display: block;
+    margin-bottom: 9px;
+}
+.home li a {
+    color: black;
+    text-decoration: none;
+}
+.home li a:hover {
+    color: #428bca;
 }

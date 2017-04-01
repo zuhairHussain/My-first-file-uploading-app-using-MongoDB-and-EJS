@@ -1,0 +1,13 @@
+<% include ../partials/header %>
+
+    <main>
+        <div class="jumbotron">
+            <h2><%= pgname %></h2>
+            <ul>
+                <% data.forEach(function(data) { %>
+                    <a href="/id/<%= data.id %>"><li class="img-list"><img src="../uploads/<%= data.imgUrl %>"> <%= data.name %> <span class="pull-right">Price : <%= data.price %></span></li></a>
+                <% }); %>
+            </ul>
+    </main>
+
+<% include ../partials/footer %>
